@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>문자 보내기</title>
+</head>
+<body>
+  <button id="smsBtn">문자 보내기</button>
+
+  <script>
+    document.getElementById('smsBtn').addEventListener('click', function() {
+      window.location.href = "sms:01042939396?body=유리";
+    });
+  </script>
+</body>
+</html>
